@@ -13,7 +13,7 @@ Interview Tracker ("the app") is an Android app that helps you track job intervi
 
 - **On your phone:** the companies, interview rounds, recruiter contacts, notes, job descriptions, your email signature and the settings you enter. This is kept in the app's private storage.
 - **In your own Google Drive:** if you sign in and leave automatic backup on, the app saves backup files of the data above in a hidden folder that belongs only to this app (the Google Drive "app data folder"). The app cannot see or change any other file in your Drive, and you cannot see this folder in the normal Drive view. You can delete these backups at any time from the app (Settings, Google Drive, Delete all Drive backups).
-- **Backups are not encrypted by the app.** They are protected by your Google account.
+- **How backups are protected:** they are sent over HTTPS and stored in your own Google Drive, protected by your Google account. Anyone who can sign in to your Google account could restore them.
 
 ## What the developer receives
 
